@@ -22,6 +22,6 @@ describe("MessageService", () => {
 
     service.clear();
 
-    expect(service.messages.length).toBe(1);
+    expect(service.messages.length).toBe(0);
   })
 })
